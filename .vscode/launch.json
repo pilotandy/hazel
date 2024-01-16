@@ -7,7 +7,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/build/tests/.libs/sandbox",
             "args": [],
-            "stopAtEntry": true,
+            "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",
             "environment": [
                 {
