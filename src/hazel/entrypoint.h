@@ -4,7 +4,10 @@ extern Hazel::Application *Hazel::CreateApplication();
 
 int main(int argc, char **argv)
 {
-    std::cout << "Starting Hazel Engine..." << std::endl;
+
+    Hazel::Log::Init();
+    HZ_CORE_FATAL("Starting Hazel Engine...");
+
     auto app = Hazel::CreateApplication();
     app->Run();
     delete app;
