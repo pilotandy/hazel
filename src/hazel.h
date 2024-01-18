@@ -1,8 +1,8 @@
 #pragma once
 
-#include "hazel/application.h"
-#include "hazel/log.h"
+#include "hazel/Application.h"
+#include "hazel/Log.h"
 
 //---------- Entry Point ----------------
-#include "hazel/entrypoint.h"
+#include "hazel/EntryPoint.h"
 //---------------------------------------

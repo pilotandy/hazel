@@ -4,7 +4,10 @@
 class Game : public Hazel::Application
 {
 public:
-    Game() {}
+    Game()
+    {
+        HZ_INFO("Starting Castle 3...");
+    }
     ~Game() {}
 };
 
